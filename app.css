@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+input, label {
+  display: block;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width:  10rem;
+}
+
+/* label {
+  display: none;
+} */
+/* This label none allows us to keep our html semantic and
+accessible, but makes it look nice since we're not showing
+that label (since we're using a placeholder) */
+
+[type=submit] {
+  padding: 1rem;
+  background-color: hsl(240, 50%, 50%);
+  border: none;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 1px, 1px, 1px, #333;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+[type=submit]:hover {
+  background-color: hsl(240, 50%, 60%);
+}

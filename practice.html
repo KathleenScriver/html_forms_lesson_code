@@ -1,0 +1,21 @@
+<!-- Practicing writing form elements in the body -->
+
+<form method="POST" action="http://localhost:3000/cars">
+  <label for="make">Make</label>
+  <input id="make" type="text" name="make" placeholder="eg. Ford, Honda, Subaru"/>
+
+  <label for="model">Model</label>
+  <input id="model" type="text" name="model" placeholder="eg. Explorer, Odyssey, Legacy"/>
+
+  <label for="color">Color</label>
+  <input id="color" type="color" name="color" />
+
+  <select name="rating">
+    <option value=1>1</option>
+    <option value=2>2</option>
+    <option value=3>3</option>
+  </select>
+
+  <input type="submit" value="Submit Car" />
+
+</form>
